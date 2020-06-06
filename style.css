@@ -202,6 +202,17 @@
     text-transform: uppercase;
 }
 
+.pg-intro{
+    width: 90%;
+    height: 100px;
+    background-image: url("images/landscape.jpg");
+    color: rgb(233, 194, 64);
+    margin: 60px 0px 80px 65px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 14px;
+}
+
 
 
 
@@ -257,7 +268,9 @@
     .last-box{
         margin: 10px auto;
     }
-
+    .pg-intro{
+        margin-left: 40px;
+    }
 }
 
 
@@ -303,6 +316,11 @@
         width: 420px;
         height: 220px;
     }
+
+    .pg-intro{
+        width: 100%;
+        margin-left: 0px;
+    }
     .nav-link{
         font-size: 13px;
     }
@@ -312,7 +330,7 @@
 
 }
 
-@media (min-width:280px) and (max-width:565px){
+@media (min-width:280px) and (max-width:575px){
     .carousel-inner img{
         height: 300px;
     }
@@ -325,12 +343,16 @@
     .about-p{
         font-size: 14px;
     }
-
+    .pg-intro{
+        width: 100%;
+        margin-left: 0px;
+        font-size: small;
+    }
     .about a button{
         margin-bottom: 20px;
     }
     .footer{
-        height: 790px ;
+        height: 810px ;
     }
 
     .d-flex img{
@@ -346,9 +368,13 @@
         margin: 20px ;
 
     }
+    .box h3{
+        margin-bottom: 30px;
+    }
 
     .box p{
-        font-size: 14px;
+        font-size: 18px;
+        font-weight: bold;
     }
 
 
